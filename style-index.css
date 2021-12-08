@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.primary-container {
+    background-color: #10a2db;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    padding: 25px;
+    /* clear: both; */
+    border-radius: 20px;
+    /* top: -50%; */
+    transform: translateY(50%);
+    box-shadow: 8px 8px 0 black;
+}
+
+button {
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 15px;
+    width: 45%;
+    border-radius: 10px;
+    transition: all 0.4s;
+    color: black;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+form {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2 {
+    padding: 10px;
+}
+
+input {
+    border-radius: 6px;
+    border: solid 3px black;
+    /* margin: 50%; */
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(170, 170, 170); */
+}
+
+input:focus {
+    background-color: #fff;
+    border: 0 solid yellow;
+}
